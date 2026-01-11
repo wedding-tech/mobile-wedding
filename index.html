@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>We’re getting married</title>
 
+  <!-- 모바일 대응 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 🔗 썸네일 (카톡/메신저) -->
+  <meta property="og:title" content="We’re getting married">
+  <meta property="og:description" content="모바일 청첩장">
+  <meta property="og:image" content="https://wedding-tech.github.io/mobile-wedding/xxx.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wedding-tech.github.io/mobile-wedding/">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: serif;
+      text-align: center;
+      background: #ffffff;
+      color: #222;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .title {
+      margin-top: 35vh;
+      font-size: 32px;
+      animation: fadeIn 2s;
+    }
+    img {
+      width: 90%;
+      max-width: 420px;
+      margin: 30px auto 0;
+      display: block;
+      animation: fadeIn 3s;
+      object-fit: contain;
+    }
+    h2 {
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.7;
+      margin: 0;
+    }
+    .divider {
+      width: 40px;
+      height: 1px;
+      background: #ccc;
+      margin: 40px auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 10px 18px;
+      border: 1px solid #222;
+      border-radius: 30px;
+      font-size: 14px;
+      text-decoration: none;
+      color: #222;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 인트로 -->
+  <div class="section">
+    <div class="title">We’re getting married</div>
+    <img src="https://wedding-tech.github.io/mobile-wedding/xxx.jpg" alt="wedding photo">
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 날짜 -->
+  <div class="section">
+    <h2>Wedding Day</h2>
+    <p>
+      2026년 4월 1일 토요일<br>
+      오후 2시
+    </p>
+
+    <!-- 📅 캘린더 -->
+    <a class="btn"
+       href="https://www.google.com/calendar/render?action=TEMPLATE&text=Wedding&dates=20260401T050000Z/20260401T070000Z&details=We’re getting married&location=서울특별시 어딘가구 어딘가로 123"
+       target="_blank">
+      📅 캘린더에 추가
+    </a>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 장소 -->
+  <div class="section">
+    <h2>Location</h2>
+    <p>
+      장난웨딩홀 3층 그랜드볼룸<br>
+      서울특별시 어딘가구 어딘가로 123
+    </p>
+
+    <a class="btn" href="https://map.kakao.com/link/search/장난웨딩홀" target="_blank">
+      🗺 카카오맵 열기
+    </a><br>
+
+    <a class="btn" href="https://map.naver.com/v5/search/장난웨딩홀" target="_blank">
+      🗺 네이버지도 열기
+    </a>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 오시는 길 -->
+  <div class="section">
+    <h2>How to get there</h2>
+    <p>
+      🚇 지하철 2호선 아무역 3번 출구 도보 5분<br>
+      🚌 버스 123, 456 하차 후 도보 3분<br>
+      🚗 주차 가능 (2시간 무료)
+    </p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 안내 -->
+  <div class="section">
+    <p style="font-size:13px; color:#777;">
+      ※ 본 모바일 청첩장은 장난입니다.
+    </p>
+  </div>
+
+</body>
+</html>
